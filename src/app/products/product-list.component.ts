@@ -14,7 +14,7 @@ import { IProduct } from '../products/product-interface';
 })
 
 export class ProductListComponent implements OnInit {
-  pageTitle: string = 'Product List';
+  tableTitle: string = 'Product List';
   imageWidth: number = 50;
   imageMargin: number = 2;
   showImage: boolean = false;
